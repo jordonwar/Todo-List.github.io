@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between heading and image */
+}
+
+.header-container img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: cyan;
+}
+
+input, button {
+    padding: 25px;
+    border-radius: 5px;
+    background-color: cyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+
+input {
+    padding-right: 50px;
+    margin: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+li{
+    font-style: italic;
+    font-weight: bold;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: cyan;
+    border: 1px solid;
+    margin-bottom: 100px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-button {
+    display: flex;
+    gap: 10px;
+}
+
+.task-button button {
+    margin-right: 5px;
+    padding: 10px;
+}
